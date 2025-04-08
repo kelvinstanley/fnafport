@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: JetBrains Mono;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url(img/logo2.webp);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position: center;
+}
+
+#cabeçalho {
+    height: 25vh;
+    background-color: black;
+    color: white;   
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.356) , rgba(255, 68, 0, 0.336) 10%), linear-gradient(to top, rgba(0, 0, 0, 0.747) 6%, rgba(255, 68, 0, 0.336) 20%);
+}
+
+.segredo {
+    cursor: default;
+}
+
+.titulo, .Gtitulo{
+    text-align: center;
+    font-family: JetBrains Mono;
+    text-shadow: 0px 3px 10px rgba(255, 255, 255, 0.452);
+
+}
+
+.Gtitulo {
+    margin-top: -115px;
+}
+
+h1{
+    font-family: JetBrains Mono;
+}
+#seção p{
+    font-family: JetBrains Mono;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 3px 10px rgba(255, 0, 0, 0.452);
+    text-align: justify;
+    line-height: 20px;
+}
+
+#tituloS{
+    font-weight: bolder;
+    font-size: 35px;
+    color: orangered;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-color: orangered;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-shadow: 1px 1px 5px black;
+}
+
+nav{
+    background-color: rgb(255, 127, 41);
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 1px;
+    margin-top: 30px;
+    background-image: url(img/listra.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+
+a#BNav{
+    font-family: JetBrains Mono;
+    margin-right: 6.5px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgba(255, 217, 0, 0.808);
+    text-decoration: none;
+    color: black;
+    display: block;
+
+    transition: transform, margin 100ms ease-in-out;
+
+}
+a#BNav:hover {
+    background-color: white;
+    color: black;
+    margin: 0px 10px 0px 10px;
+    transform: scale(1.1);
+}
+
+#seção {
+   height: 350px;
+   width: 60vw;
+   padding: 10px;
+   margin-top: 100px;
+   border-radius: 8px;
+   margin-left: 260px;
+   background-color: rgba(128, 128, 128, 0.925);
+   border-style: solid;
+   border-color: orangered;
+}
+
+#rodapé {
+    height: 10vh;
+    width: 98.4vw;
+    background-color: black;
+    color: white;  
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.445) , rgba(255, 68, 0, 0.336) 10%), linear-gradient(to top, black 3%, rgba(255, 68, 0, 0.336) 14%);
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+#prodap{
+    color: orange;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    height: 150px;
+}
+
+/*PÁGINA DA HISTÓRIA*/
+
+#para1 {
+    text-align: justify;
+    width: 500px;
+    height: 153px;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 8px;
+    margin-left: 150px;
+    background-color: rgba(128, 128, 128, 0.925);
+    border-style: solid;
+    border-color: orangered;
+}
+
+#para2 {
+    text-align: justify;
+    width: 500px;
+    height: 153px;
+    padding: 10px;
+    margin-top: 64px;
+    border-radius: 8px;
+    margin-left: 150px;
+    background-color: rgba(128, 128, 128, 0.925);
+    border-style: solid;
+    border-color: orangered;
+}
+
+#para3 {
+    text-align: justify;
+    width: 500px;
+    height: 153.5px;
+    padding: 10px;
+    margin-top: 70px;
+    border-radius: 8px;
+    margin-left: 150px;
+    background-color: rgba(128, 128, 128, 0.925);
+    border-style: solid;
+    border-color: orangered;
+}
+
+#para4 {
+    text-align: justify;
+    width: 500px;
+    height: 151.5px;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 8px;
+    margin-left: 150px;
+    background-color: rgba(128, 128, 128, 0.925);
+    border-style: solid;
+    border-color: orangered;
+}
+
+#linhaT{
+    height: 980px;
+    width: 1px;
+    margin-top: 100px;
+    margin-left: 260px;
+    background-color: white;
+
+    transition: transform 100ms ease-in-out;
+    
+}
+
+#fnaf1{
+    width: 250px;
+    height: 175px;
+    margin-right: -1000px;
+    border: solid 2px rgb(143, 0, 0);
+    border-radius: 5px;
+    
+    position: absolute;
+    left: 130px;
+
+    transition: transform 100ms ease-in-out;
+}
+
+#fnaf2{
+    width: 250px;
+    height: 175px;
+    margin-right: -1000px;
+    border: solid 2px rgb(143, 0, 0);
+
+    position: absolute;
+    top: 500px;
+    left: 130px;
+
+    transition: transform 100ms ease-in-out;
+}
+#fnaf3{
+    width: 250px;
+    height: 175px;
+    margin-right: -1000px;
+    border: solid 2px rgb(143, 0, 0);
+
+    position: absolute;
+    top: 750px;
+    left: 130px;
+
+    transition: transform 100ms ease-in-out;
+}
+#fnaf4{
+    width: 175px;
+    height: 240px;
+    margin-right: -1000px;
+    border: solid 2px rgb(143, 0, 0);
+
+    position: absolute;
+    top: 1000px;
+    left: 170px;
+
+    transition: transform 100ms ease-in-out;
+}
+
+#fnaf1:hover, #fnaf2:hover, #fnaf3:hover, #fnaf4:hover{
+    transform: scale(1.05);
+}
+
+/*PÁGINA ATRAÇÕES*/
+
+#animatronics{
+    margin-top: 3000px;
+    margin: 80px 260px 0px 260px;
+    height: 460px;
+    justify-content: space-between;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(143, 0, 0);
+    background-color: rgba(128, 128, 128, 0.63);
+}
+
+.atraction{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 200px;
+    height: 175px;
+    border-style: solid;
+    border-color: rgb(143, 0, 0);
+    border-radius: 10px;
+    
+    transition: transform 200ms ease-in-out;
+}
+#foxy{
+    position: absolute;
+    left: 526px;
+    top: 485px;
+    margin-bottom: 30px;
+}
+
+.atraction:hover{
+    transform: scale(1.1);
+}
+
+#animatroT{
+    padding-top: 5px;
+    color: orangered;
+    margin-left: 317px;
+    padding-left: 5px;
+    border-left-style: solid;
+    border-left-color: orangered;
+    margin-top: 8px;
+    font-size: 20pt;
+
+    width: 140px;
+}
+
+/*G*/
+
+#carlinhos {
+    display: flex;
+    justify-content: space-between;
+}
+
+#golden{
+    margin-top: 100px;
+    opacity: 0.2;
+}
+
+#golden2{
+    opacity: 0.2;
+    margin-top: 100px;
+    margin-left: 320px;
+}
