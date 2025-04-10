@@ -147,6 +147,17 @@ a#BNav:hover {
     background-color: rgba(128, 128, 128, 0.925);
     border-style: solid;
     border-color: orangered;
+
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity .5s ease, transform .5s ease;
+    pointer-events: none;
+}
+
+#para1.mostrar {
+    opacity: 1;
+    transform: translateX(0px);
+    pointer-events: auto;
 }
 
 #para2 {
@@ -154,12 +165,23 @@ a#BNav:hover {
     width: 500px;
     height: 153px;
     padding: 10px;
-    margin-top: 64px;
+    margin-top: 40px;
     border-radius: 8px;
     margin-left: 150px;
     background-color: rgba(128, 128, 128, 0.925);
     border-style: solid;
     border-color: orangered;
+
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity .5s ease, transform .5s ease;
+    pointer-events: none;
+}
+
+#para2.mostrar2 {
+    opacity: 1;
+    transform: translateX(0px);
+    pointer-events: auto;
 }
 
 #para3 {
@@ -173,6 +195,17 @@ a#BNav:hover {
     background-color: rgba(128, 128, 128, 0.925);
     border-style: solid;
     border-color: orangered;
+
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity .5s ease, transform .5s ease;
+    pointer-events: none;
+}
+
+#para3.mostrar3 {
+    opacity: 1;
+    transform: translateX(0px);
+    pointer-events: auto;
 }
 
 #para4 {
@@ -186,6 +219,17 @@ a#BNav:hover {
     background-color: rgba(128, 128, 128, 0.925);
     border-style: solid;
     border-color: orangered;
+
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity .5s ease, transform .5s ease;
+    pointer-events: none;
+}
+
+#para4.mostrar4 {
+    opacity: 1;
+    transform: translateX(0px);
+    pointer-events: auto;
 }
 
 #linhaT{
@@ -280,7 +324,7 @@ a#BNav:hover {
 #foxy{
     position: absolute;
     left: 526px;
-    top: 485px;
+    top: 495px;
     margin-bottom: 30px;
 }
 
